@@ -2,3 +2,4 @@ discord.py-stubs
 discord==1.7.3
 requests
 colorama
+json
