@@ -8,7 +8,7 @@ Extract the zip file into a new folder. Open up cmd in that folder by typing "cm
 
 And hit enter and paste the code below.
 ```
-pip install r -requirements.txt
+pip install -r requirements.txt
 ```
 
 How can I get the latest roblox version?
