@@ -12,7 +12,7 @@ print("""\033[95m
                             open source cause i dont release malware
 """)
 with open("./settings.json","r") as raw:
-    settings = json.load(raw)
+    settings = json.loads(raw)
 
 launcher = f"{os.getenv('LOCALAPPDATA')}\\Roblox\\versions\\{settings['version']}\\RobloxPlayerLauncher.exe"
 if not os.path.exists(launcher):
