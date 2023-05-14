@@ -27,7 +27,7 @@ def join(link):
     print(f"    \033[96m{gettime()} - \033[94mRequest 1 finished")
     ticket = requests.post("https://auth.roblox.com/v1/authentication-ticket", headers={"Cookie":f".ROBLOSECURITY={settings['cookie']}", "Origin": "https://www.roblox.com", "Referer": "https://www.roblox.com/","x-csrf-token":req.headers["x-csrf-token"]}).headers['rbx-authentication-ticket']
     print(f"    \033[96m{gettime()} - \033[94mRequest 2 finished")
-    request = requests.get(link, headers={"Referer": "https://www.roblox.com/games/185655149/Welcome-to-Bloxburg","X-CSRF-TOKEN":req.headers["x-csrf-token"]}, cookies={".ROBLOSECURITY": settings['cookie']})
+    request = requests.get(link, headers={"Referer": "https://www.roblox.com/games/606849621/Jailbreak","X-CSRF-TOKEN":req.headers["x-csrf-token"]}, cookies={".ROBLOSECURITY": settings['cookie']})
     print(f"    \033[96m{gettime()} - \033[94mRequest 3 finished") 
     match = re.search(r"Roblox.GameLauncher.joinPrivateGame\((\d+), '([a-f0-9\-]+)', '(\d+)'\)", request.text)
     if match:
