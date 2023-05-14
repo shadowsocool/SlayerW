@@ -5,6 +5,7 @@ Extract the zip file into a new folder. Open up cmd in that folder by typing "cm
 
 ![image](https://github.com/shadowwrblx/SlayerW/assets/104780811/fc1f8ba1-110f-43cd-b317-3a7597e66a0c)
 ![image](https://github.com/shadowwrblx/SlayerW/assets/104780811/e66baaa3-70ca-487e-9ebe-da18a40a995a)
+
 And hit enter and paste the code below.
 ```
 pip install r -requirements.txt
