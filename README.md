@@ -22,3 +22,7 @@ It is the folders name that contains the RobloxPlayerLauncher.exe like this
 How do I use this?
 
 The UI tells you what to enter and then just wait for it to detect a private server link and join it!
+
+Need help?
+
+Add me on discord: shadow.#9999 / Dev id: 921848527955566743
