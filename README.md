@@ -1,2 +1,2 @@
 # SlayerW
-Roblox private server joiner
+SlayerW is the #1 private server joined for Discord.
