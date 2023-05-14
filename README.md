@@ -1,5 +1,5 @@
 # SlayerW
-SlayerW is the #1 private server joined for Discord.
+SlayerW is the #1 private server joiner for Discord.
 
 How can I get the latest roblox version?
 
