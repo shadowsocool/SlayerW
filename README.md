@@ -26,3 +26,5 @@ The UI tells you what to enter and then just wait for it to detect a private ser
 Need help?
 
 Add me on discord: shadow.#9999 / Dev id: 921848527955566743
+
+https://discord.gg/rwF7uepa
