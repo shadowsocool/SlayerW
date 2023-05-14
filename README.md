@@ -1,6 +1,11 @@
 # SlayerW
 SlayerW is the #1 private server joiner for Discord.
 
+Extract 
+```
+pip install r -requirements.txt
+```
+
 How can I get the latest roblox version?
 
 ![image](https://github.com/shadowwrblx/SlayerW/assets/104780811/6e705c9d-56a4-4050-a7d4-0e4f84360d35)
