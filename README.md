@@ -1,4 +1,6 @@
 # SlayerW
+IF YOU LIKE THIS PLEASE STAR IT
+
 SlayerW is the #1 private server joiner for Discord.
 
 Extract the zip file into a new folder. Open up cmd in that folder by typing "cmd" as shown below
