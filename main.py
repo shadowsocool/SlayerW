@@ -16,9 +16,11 @@ with open("./settings.json","r") as raw:
 
 launcher = f"{os.getenv('LOCALAPPDATA')}\\Roblox\\versions\\{settings['version']}\\RobloxPlayerLauncher.exe"
 if not os.path.exists(launcher):
-    print("Invalid roblox version!\nMake sure you have the right version in settings.json")
-    time.sleep(3)
-    exit()
+    launcher = f"C:\\Program Files (x86)\\Roblox\\Versions\\{settings['version']}\\RobloxPlayerLauncher.exe"
+    if not os.path.exists(launcher):
+        print("Invalid roblox version!\nMake sure you have the right version in settings.json")
+        time.sleep(3)
+        exit()
 
 
 def join(link):
